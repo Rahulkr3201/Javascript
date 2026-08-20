@@ -43,3 +43,5 @@ let  c=100; // goes to script
 }
 console.log(c); // 100 because it looks script not inside the block
 
+
+
