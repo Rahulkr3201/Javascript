@@ -66,3 +66,10 @@ function z(){
 z();
 
 
+// so if the function returns or just execute it have its own fn + own lexical scope + outer lexical scope + global scope, this is called closure.  
+
+--uses
+-memoize
+-iterators
+-currrying
+-module design pattern
