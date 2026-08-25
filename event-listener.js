@@ -22,3 +22,11 @@ document.getElementById("my-Btn").addEventListener("click",function(){
 }
 
 withclosure();
+
+// withClosure() creates the local variable and also comes in call stack  count with value 0.
+// The click callback forms a closure and remembers the count variable.
+// After withClosure() finishes, count remains in memory because the event listener still uses it.
+// Every button click runs the callback and increases count: 1, 2, 3....
+
+// all callback and closure will be stored in the memory even it it is nou used so we should clean them thats why we need to remove them 
+//event listner also very heavy
