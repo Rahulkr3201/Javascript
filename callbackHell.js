@@ -74,5 +74,5 @@ createOrder(cart, function (orderId) {
 })
 //so we beilive that after the createorder is executed properly , it will callback the callback function procedToPay which was registered in callback queue.
 
-
+// this is where the promises comes into picture handle the inversion Of control
 
