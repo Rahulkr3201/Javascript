@@ -61,3 +61,4 @@ promise2.then(function(orderId){//attach callback with the promise return
 })
 //VVI catch will only catch the code before the catch line
 // if some thing is below the catch it will not be handled ny that particular catch, it will check all above it then statement
+//resolve and reject can be done only once inside a promise;
